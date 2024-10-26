@@ -17,7 +17,7 @@ def is_valid_credit_card(card):
 
 
 # Input handling
-N = int(input())
+N = int(input("Enter the number of credit card numbers to validate: "))
 for _ in range(N):
-    card = input().strip()
+    card = input("Enter credit card number: ").strip()
     print(is_valid_credit_card(card))
